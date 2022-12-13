@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -90,12 +91,26 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.css"
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-login:build:production",
+            "firebaseProject": "learning-652bb",
+            "firebaseHostingSite": "learning-652bb"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f9374aab-1bb8-4a43-b917-5ede9b0a13ea"
   }
 }

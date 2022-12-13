@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "learning-652bb": {
+      "hosting": {
+        "angular-login": [
+          "learning-652bb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "learning-652bb"
+  }
+}
